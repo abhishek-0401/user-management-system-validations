@@ -36,6 +36,6 @@ public class User {
     @Pattern(regexp ="^(((19|2[0-9])[0-9]{2})-(0[13578]|10|12)-(0[1-9]|[12][0-9]|3[01]))$",message = "date not valid")
     private String date;
     @Column(name="time")
-    @NotEmpty(message = "time must be filled")
+    @NotNull(message = "time must be filled")
     private String time;
 }
