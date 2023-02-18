@@ -1,0 +1,1 @@
+INSERT INTO TBL_USER VALUES(1,'abhishek','1998-03-07','abhishek@gmail.com','919789456415','2023-2-18','12:00:00');
